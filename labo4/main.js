@@ -474,13 +474,13 @@ const sing = document.querySelector('.playSinging');
 
 //change the URL of the audio when pressing the button
 button.addEventListener('click', () => {
-  music.src = 'audio.mp3';
+  music.src = '/audio.mp3';
   music.play();
 }
 );
 
 sing.addEventListener('click', () => {
-  music.src = 'singing.mp3';
+  music.src = '/singing.mp3';
 
   music.play();
 
